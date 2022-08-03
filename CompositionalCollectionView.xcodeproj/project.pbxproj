@@ -13,9 +13,16 @@
 		5D9640B22898F9EC0058A78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9640B02898F9EC0058A78B /* Main.storyboard */; };
 		5D9640B42898F9F00058A78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9640B32898F9F00058A78B /* Assets.xcassets */; };
 		5D9640B72898F9F00058A78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9640B52898F9F00058A78B /* LaunchScreen.storyboard */; };
+		5D9640C42898FE140058A78B /* DogImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9640C32898FE140058A78B /* DogImages.swift */; };
+		5D9640C72898FE670058A78B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9640C52898FE670058A78B /* CollectionViewCell.swift */; };
+		5D9640C82898FE670058A78B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9640C62898FE670058A78B /* CollectionViewCell.xib */; };
+		5D9640CA289900BD0058A78B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9640C9289900BD0058A78B /* ViewModel.swift */; };
+		5D9640CC2899082B0058A78B /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9640CB2899082B0058A78B /* PopupView.swift */; };
+		6144DB812040DE678EA57D76 /* Pods_CompositionalCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675D409683DBC29A3ADF2D6D /* Pods_CompositionalCollectionView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BA3549B2C20641CDFDB741C /* Pods-CompositionalCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompositionalCollectionView.release.xcconfig"; path = "Target Support Files/Pods-CompositionalCollectionView/Pods-CompositionalCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		5D9640A72898F9EC0058A78B /* CompositionalCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositionalCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9640AA2898F9EC0058A78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D9640AC2898F9EC0058A78B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		5D9640B32898F9F00058A78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D9640B62898F9F00058A78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D9640B82898F9F00058A78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D9640C32898FE140058A78B /* DogImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImages.swift; sourceTree = "<group>"; };
+		5D9640C52898FE670058A78B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5D9640C62898FE670058A78B /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		5D9640C9289900BD0058A78B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5D9640CB2899082B0058A78B /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		675D409683DBC29A3ADF2D6D /* Pods_CompositionalCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompositionalCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A554E3C5904411168AF638 /* Pods-CompositionalCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompositionalCollectionView.debug.xcconfig"; path = "Target Support Files/Pods-CompositionalCollectionView/Pods-CompositionalCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6144DB812040DE678EA57D76 /* Pods_CompositionalCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FDE3E6B55425589CFD4D16D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A554E3C5904411168AF638 /* Pods-CompositionalCollectionView.debug.xcconfig */,
+				2BA3549B2C20641CDFDB741C /* Pods-CompositionalCollectionView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5D96409E2898F9EC0058A78B = {
 			isa = PBXGroup;
 			children = (
 				5D9640A92898F9EC0058A78B /* CompositionalCollectionView */,
 				5D9640A82898F9EC0058A78B /* Products */,
+				3FDE3E6B55425589CFD4D16D /* Pods */,
+				CF574664B913D070635354BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,68 @@
 		5D9640A92898F9EC0058A78B /* CompositionalCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				5D9640AA2898F9EC0058A78B /* AppDelegate.swift */,
-				5D9640AC2898F9EC0058A78B /* SceneDelegate.swift */,
-				5D9640AE2898F9EC0058A78B /* ViewController.swift */,
-				5D9640B02898F9EC0058A78B /* Main.storyboard */,
-				5D9640B32898F9F00058A78B /* Assets.xcassets */,
-				5D9640B52898F9F00058A78B /* LaunchScreen.storyboard */,
+				5D9640C22898FDC90058A78B /* Models */,
+				5D9640C12898FDBD0058A78B /* ViewModel */,
+				5D9640C02898FA0A0058A78B /* Views */,
+				5D9640BF2898FA020058A78B /* Storyboard */,
+				5D9640BE2898F9FB0058A78B /* Resources */,
 				5D9640B82898F9F00058A78B /* Info.plist */,
 			);
 			path = CompositionalCollectionView;
+			sourceTree = "<group>";
+		};
+		5D9640BE2898F9FB0058A78B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D9640AA2898F9EC0058A78B /* AppDelegate.swift */,
+				5D9640AC2898F9EC0058A78B /* SceneDelegate.swift */,
+				5D9640B32898F9F00058A78B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D9640BF2898FA020058A78B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5D9640B02898F9EC0058A78B /* Main.storyboard */,
+				5D9640B52898F9F00058A78B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5D9640C02898FA0A0058A78B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D9640AE2898F9EC0058A78B /* ViewController.swift */,
+				5D9640C52898FE670058A78B /* CollectionViewCell.swift */,
+				5D9640C62898FE670058A78B /* CollectionViewCell.xib */,
+				5D9640CB2899082B0058A78B /* PopupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D9640C12898FDBD0058A78B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D9640C9289900BD0058A78B /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D9640C22898FDC90058A78B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D9640C32898FE140058A78B /* DogImages.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF574664B913D070635354BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				675D409683DBC29A3ADF2D6D /* Pods_CompositionalCollectionView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D9640BB2898F9F00058A78B /* Build configuration list for PBXNativeTarget "CompositionalCollectionView" */;
 			buildPhases = (
+				530C818FB90D395A982D210E /* [CP] Check Pods Manifest.lock */,
 				5D9640A32898F9EC0058A78B /* Sources */,
 				5D9640A42898F9EC0058A78B /* Frameworks */,
 				5D9640A52898F9EC0058A78B /* Resources */,
+				59BABA2C6E781A10FB4247CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +208,66 @@
 			files = (
 				5D9640B72898F9F00058A78B /* LaunchScreen.storyboard in Resources */,
 				5D9640B42898F9F00058A78B /* Assets.xcassets in Resources */,
+				5D9640C82898FE670058A78B /* CollectionViewCell.xib in Resources */,
 				5D9640B22898F9EC0058A78B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		530C818FB90D395A982D210E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompositionalCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BABA2C6E781A10FB4247CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompositionalCollectionView/Pods-CompositionalCollectionView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompositionalCollectionView/Pods-CompositionalCollectionView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompositionalCollectionView/Pods-CompositionalCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D9640A32898F9EC0058A78B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9640CC2899082B0058A78B /* PopupView.swift in Sources */,
+				5D9640C72898FE670058A78B /* CollectionViewCell.swift in Sources */,
 				5D9640AF2898F9EC0058A78B /* ViewController.swift in Sources */,
 				5D9640AB2898F9EC0058A78B /* AppDelegate.swift in Sources */,
+				5D9640C42898FE140058A78B /* DogImages.swift in Sources */,
+				5D9640CA289900BD0058A78B /* ViewModel.swift in Sources */,
 				5D9640AD2898F9EC0058A78B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +412,7 @@
 		};
 		5D9640BC2898F9F00058A78B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A554E3C5904411168AF638 /* Pods-CompositionalCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,8 +423,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,12 +435,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5D9640BD2898F9F00058A78B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3549B2C20641CDFDB741C /* Pods-CompositionalCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +452,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +464,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
